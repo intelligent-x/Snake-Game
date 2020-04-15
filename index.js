@@ -41,6 +41,7 @@ function draw(){
 	gd.fillStyle = 'rgba( 255, 255, 255, 0.3 )';
 	gd.textAlign = 'center';
 	gd.textBaseline = 'middle';
+	gd.font = "italic normal bold 50px Consolas";	
 	gd.fillText( "Author: Zheng-Luxi", canvas.width / 2, canvas.height / 2 );
 	for( let item of balls ){
 		gd.beginPath();
